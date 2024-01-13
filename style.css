@@ -1,0 +1,115 @@
+body {
+    background-image: url(vote3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-right: 300px;
+    opacity: o.5;
+}
+
+.app-title {
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px !important;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px #000000a1;
+}
+
+.input-section {
+    margin-top: 20px;
+}
+
+#candidateInput {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* #addCandidateBtn {
+    padding: 20px 40px;
+    font-size: 16px;
+    /* background-image: url(shutterstock_648876451.webp); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+} */ */
+
+.boxes{
+    width: 90px;
+}
+
+.input-section1{
+    width: 150px;
+    margin-top: 1rem;
+}
+#candidateInput{
+          width: 300px;
+}
+#addCandidateBtn1{
+    width: 80px;
+   height: 50px;
+    color: grey;
+    border-radius: 10px;
+    border-color: #ccc;
+}
+#candidateInput1{
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    color:black;
+    border-color: #ccc;
+}
+#candidateInput2{
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    border-color: #514e4e;
+}
+.candidates-table {
+    width: 80%;
+    /* margin-top: 20px; */
+    
+    /* border-collapse: collapse; */
+}
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.input-section button {
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #ccc;
+    margin-bottom: 5px; /* Add margin between buttons */
+}
+
+.input-section1 {
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #ccc;
+    margin-bottom: 5px; /* Add margin between buttons */
+}
